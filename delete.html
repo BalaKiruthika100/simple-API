@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div style=" position: fixed;
+width: 340px;
+height: 280px;
+top: 50%;
+left: 50%;
+margin-top: -140px;
+margin-left: -170px;">
+<h2>DELETE</h2>
+<form action="http://localhost:3000/employee/delete/{{id}}?_method=DELETE" method="POST" >
+ id:<br>
+  <input type="text" name="id" value="">
+  <br>
+  <input type="hidden" name="_method" value="DELETE">
+  <br><br>
+  <input type="submit" value="DELETE">
+</form> 
+
+</div>
+</body>
+</html>
+
